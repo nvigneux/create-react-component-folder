@@ -12,6 +12,8 @@
     "lint": "eslint lib bin"
   },
   "keywords": [
+    "zol",
+    "nvigneux",
     "cli",
     "scaffold",
     "react",
@@ -33,12 +35,12 @@
   "license": "MIT",
   "devDependencies": {
     "app-root-dir": "^1.0.2",
-    "eslint": "^5.15.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "prettier-eslint": "^8.8.2"
+    "eslint": "6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2"
   },
   "bin": {
     "create-react-component-folder": "./bin/create-react-component-folder.js",
@@ -48,11 +50,11 @@
     "chalk": "^2.4.2",
     "commander": "^2.17.1",
     "cosmiconfig": "^5.1.0",
+    "prettier": "^1.19.1",
     "fs": "0.0.1-security",
     "log-update": "^3.1.0",
     "mkdirp": "^0.5.1",
     "node-alias": "^1.0.4",
-    "prettier": "^1.16.4",
     "semver": "^5.5.0"
   }
 }
