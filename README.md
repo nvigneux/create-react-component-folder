@@ -6,8 +6,8 @@
 ## About
 
 Create React Component folder works on macOS, Windows, and Linux.<br>
-It creates **React** or **React Native** component folder structure with one command.<br>
-There is also support for Typescript, React Native, Less and Sass.
+It creates **React** component folder structure with one command.<br>
+There is also support for Less and Sass.
 
 ## Quick Overview
 
@@ -121,18 +121,15 @@ So now all you have to do is type **npx crcf componentName** and you will get al
 
 ```sh
 [
-  "typescript",
   "scss",
   "less",
   "nocss",
-  "notest",
-  "reactnative",
+  "test",
   "createindex",
   "uppercase",
   "jsx",
   "proptypes",
   "stories",
-  "nosemi",
   "cssmodules",
 ]
 ```
@@ -159,13 +156,10 @@ $ npx crcf --help
   Options:
 
     -V, --version     output the version number
-    --typescript      Creates Typescript component and files
     --nocss           No css file
-    --notest          No test file
+    --test          No test file
     --cssmodules       Creates css/less/scss file with .module extensions. Example 
-    --reactnative     Creates React Native components
     --createindex     Creates index.js file for multple component imports
-    -f, --functional  Creates React stateless functional component
     -j, --jsx         Creates the component file with .jsx extension
     -l, --less        Adds .less file to component
     -s, --scss        Adds .scss file to component
@@ -173,7 +167,6 @@ $ npx crcf --help
     -u, --uppercase   Component files start on uppercase letter
     -h, --help        output usage information
     -sb, --stories    Add Storie file to component
-    -ns, --nosemi     No semicolons
 ```
 
 ## Author
