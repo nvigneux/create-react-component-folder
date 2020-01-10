@@ -13,10 +13,8 @@ There is also support for Less and Sass.
 
 ```sh
 $ npm install -g @nvigneux/crcf
-$ npx crcf myComponent
+$ crcf myComponent
 ```
-
-_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://github.com/snaerth/create-react-component-folder/blob/master/docs/npx_instructions.md))_
 
 ## Tutorial
 
@@ -31,8 +29,8 @@ $ npm install -g @nvigneux/crcf
 ## Creating single component
 
 ```sh
-$ npx crcf myComponent
-$ npx crcf components/myComponent
+$ crcf myComponent
+$ crcf components/myComponent
 ```
 
 ## Output single
@@ -44,7 +42,7 @@ $ npx crcf components/myComponent
 ## Creating multiple components
 
 ```sh
-$ npx crcf components/header footer button navigation
+$ crcf components/header footer button navigation
 ```
 
 ## Output multiple
@@ -113,7 +111,7 @@ Create a config file named **.crcf.config.js** in the root of your project and i
 ]
 ```
 
-So now all you have to do is type **npx crcf componentName** and you will get all your default options when you create a component or multiple components. Here below you can see all the options.
+So now all you have to do is type **crcf componentName** and you will get all your default options when you create a component or multiple components. Here below you can see all the options.
 
 ```sh
 [
@@ -133,7 +131,7 @@ So now all you have to do is type **npx crcf componentName** and you will get al
 ## Creating index.js file for multiple component imports
 
 ```sh
-$ npx crcf --createindex
+$ crcf --createindex
 ```
 
 ## Output in index.js file for multiple component imports
@@ -145,7 +143,7 @@ $ npx crcf --createindex
 ## Options
 
 ```sh
-$ npx crcf --help
+$ crcf --help
 
   Usage: index [options]
 
