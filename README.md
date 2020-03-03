@@ -87,7 +87,6 @@ In your package.json, add a **"crcf"** property key with array of default config
   "scss",
   "proptypes",
   "stories",
-  "spec"
 ]
 ```
 
@@ -120,7 +119,6 @@ So now all you have to do is type **crcf componentName** and you will get all yo
   "nocss",
   "test",
   "createindex",
-  "uppercase",
   "jsx",
   "proptypes",
   "stories",
@@ -149,18 +147,18 @@ $ crcf --help
 
   Options:
 
-    -V, --version     output the version number
+    -V, --version     Output the version number
     --nocss           No css file
-    --test          No test file
-    --cssmodules       Creates css/less/scss file with .module extensions. Example 
+    --test            Test file
+    --cssmodules      Creates css/less/scss file with .module extensions. Example
     --createindex     Creates index.js file for multple component imports
+    --stories         Add Storie file to component
     -j, --jsx         Creates the component file with .jsx extension
     -l, --less        Adds .less file to component
     -s, --scss        Adds .scss file to component
     -p, --proptypes   Adds prop-types to component
     -u, --uppercase   Component files start on uppercase letter
     -h, --help        output usage information
-    -sb, --stories    Add Storie file to component
 ```
 
 ## Author
